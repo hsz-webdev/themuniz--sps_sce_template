@@ -24,7 +24,6 @@ src:
 	position: relative; 
 	padding: 0.1em 0 0.1em 0; 
 	cursor: pointer;
-	font-family: Verdana, Geneva, sans-serif;
 	font-size: 1.0em;
 	font-weight: normal;
 	line-height: normal;
@@ -159,7 +158,6 @@ body {
 }
 
 .questiontext {
-  font-family: verdana;
   font-size: 1em;
   font-weight: bold;
 }
@@ -185,7 +183,6 @@ td.survey-question-help {
 .asterisk {
   color: red;
   font-size: .8em;
-  font-family: verdana;
   padding-right:1em;
 }
 
@@ -303,7 +300,6 @@ height:12px;
   background-color: #EDEDED;
   color: #042455;
   font-size: .8em;
-  font-family: verdana;
 }
 
 .submit {
@@ -319,7 +315,6 @@ table.question {
 }
 
 .innergraph,.question {
-  font-family: verdana;
   font-size: .8em;
 }
 
@@ -445,15 +440,10 @@ table.group {
 	border-collapse: collapse;
 }
 
-.group-name {
-	font-family: verdana, arial, helvetica, sans-serif; 
+.group-name { 
 	font-size: 1.2em; 
 	font-weight: bold; 
 	color: #000080;
-}
-
-.group-description {
-	font-family: verdana, arial, helvetica, sans-serif;
 }
 
 .question-wrapper {
@@ -511,8 +501,7 @@ table.clearall-result {
 }
 
 table.clearall-result td {
-	background-color: #FFFFFF; 
-	font-family: arial, helvetica, sans-serif; 
+	background-color: #FFFFFF;  
 	text-align: center;
 	padding: 10px 20px;
 	border-collapse: collapse;
@@ -588,7 +577,6 @@ table.clearall-result td {
 }
 
 .survey-list-table .site-name h1 {
-	font-family: verdana, arial helvetica, sans-serif; 
 	font-size: 1.5em; 
 	color: #328639; 
 	font-weight: bold;
@@ -1071,7 +1059,6 @@ table.rank td.helptext {
   position: absolute;
   top: -17px;
   margin-left: -3px;
-  font-family: 'Arial';
   font-size: .8em;
   color: #284a6e;
   font-weight: bold;
@@ -1082,7 +1069,6 @@ table.rank td.helptext {
   float: left;
   width: 50px;
   margin: 15px 0 0 0;
-  font-family: Verdana;
   font-size: 0.8em;
   font-weight: normal;
   text-align: left;
@@ -1092,7 +1078,6 @@ table.rank td.helptext {
   float: right;
   width: 50px;
   margin: 15px 0 0 0;
-  font-family: Verdana;
   font-size: 0.8em;
   font-weight: normal;
   text-align: right;
@@ -1185,7 +1170,6 @@ div#wrapper {
   padding: 24px 0px 0px 0px;
   width: 100%;
   text-align: center;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 .statsNumRecords {
@@ -1194,7 +1178,6 @@ div#wrapper {
   float: right;
   width: 100%;
   text-align: center;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
   color: #CCCCCC;
   padding-top: 10px;
 }
@@ -1204,7 +1187,6 @@ table.statisticstable {
   text-align: left;
   margin: 0px auto;
   padding-bottom: 8px;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
   border: 1px solid #999;
   background-color: #EFEFEF;
 }
@@ -1265,7 +1247,6 @@ td.statsImageholder {
   padding: 24px 0px 0px 0px;
   width: 100%;
   text-align: center;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 .statsNumRecords {
@@ -1274,7 +1255,6 @@ td.statsImageholder {
   float: right;
   width: 100%;
   text-align: center;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
   color: #CCCCCC;
   padding-top: 10px;
 }
@@ -1284,7 +1264,6 @@ table.statisticstable {
   text-align: left;
   margin: 0px auto;
   padding-bottom: 8px;
-  font-family: Verdana, Arial, Helvetica, sans-serif;
   border: 1px solid #999;
   background-color: #EFEFEF;
 }
@@ -1349,14 +1328,12 @@ td.statsImageholder {
   font-weight: bold;
   color: #FFF;
   background: #042455;
-  font-family: verdana;
   font-size: 8pt;
 }
 
 #index h3 {
   margin: 0.5em 0 0 0.5em;
   color: #000080;
-  font-family: Verdana;
   font-size: 120%;
 }
 
