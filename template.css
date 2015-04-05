@@ -156,7 +156,9 @@ body {
 
 td.survey-question-help {
   text-align: center; 
-  background-color: #e5e5e5
+  background-color: #e5e5e5;
+  font-style: italic;
+  font-size: .8em;
 }
 
 .warning {
@@ -307,7 +309,7 @@ table.question {
 }
 
 .innergraph,.question {
-  font-size: .8em;
+  font-size: .9em;
 }
 
 table.question tr.array1:hover,table.question tr.array2:hover {
@@ -450,9 +452,9 @@ table.group {
 }
 
 .question-text {
-	font-size: 1.2em; 
+	font-size: 1em; 
 	font-weight: bold; 
-	text-align: center; 
+	text-align: left; 
 	background-color: #CCCCCC;
 }
 
@@ -979,7 +981,7 @@ table.rank td.helptext {
 
 #limesurvey table.question tbody th.answertext,#limesurvey table.question tbody th.arraycaptionleft
   {
-  text-align: right;
+  text-align: left;
   font-weight: normal;
 }
 
