@@ -348,7 +348,7 @@ table.question tr.array1:hover,table.question tr.array2:hover {
 h2.survey-name {
 	font-size: 1.2em; 
 	color: #E5E5E5; 
-	font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
+	font-family: 'Franklin Bold', Helvetica, "Arial Narrow",
 	margin: 0;
 }
 
@@ -441,7 +441,7 @@ table.group {
 
 .group-name { 
 	font-size: 1.2em; 
-	font-family: 'Franklin Bold', Helvetica, "Arial Narrow"; 
+	font-family: 'Franklin Bold', Helvetica, "Arial Narrow",
 	color: #000080;
 }
 
@@ -455,7 +455,7 @@ table.group {
 
 .question-text {
 	font-size: 1.2em; 
-	font-family: 'Franklin Bold', Helvetica, "Arial Narrow"; 
+	font-family: 'Franklin Bold', Helvetica, "Arial Narrow",
 	text-align: center; 
 	background-color: #CCCCCC;
 }
@@ -471,7 +471,7 @@ table.group {
 	background-color:#CCCCCC; 
 	text-align: center; 
 	font-size: 1em; 
-	font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
+	font-family: 'Franklin Bold', Helvetica, "Arial Narrow",
 	border-bottom: 1px solid #111111;
 }
 
@@ -517,7 +517,7 @@ table.clearall-result td {
 }
 
 .register-message-1 {
-	font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
+	font-family: 'Franklin Bold', Helvetica, "Arial Narrow",
 }
 
 .register-message-2 {
@@ -1060,7 +1060,7 @@ table.rank td.helptext {
   margin-left: -3px;
   font-size: .8em;
   color: #284a6e;
-  font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
+  font-family: 'Franklin Bold', Helvetica, "Arial Narrow",
   text-align: left;
 }
 
@@ -1165,7 +1165,7 @@ div#wrapper {
 
 .statsSurveyTitle {
   font-size: 1.5em;
-  font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
+  font-family: 'Franklin Bold', Helvetica, "Arial Narrow",
   padding: 24px 0px 0px 0px;
   width: 100%;
   text-align: center;
@@ -1212,10 +1212,10 @@ div.fieldSummary {
 }
 
 div.questionTitle {
-  font-size: 1.0em;
-  padding: 20px 20px 20px 20px;
-  font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
-  background-color: #CCCCCC;
+  font-size: 1.0em,
+  padding: 20px 20px 20px 20px,
+  font-family: 'Franklin Bold', Helvetica, "Arial Narrow",
+  background-color: #CCCCCC,
   line-height: 1.5em;
 }
 
@@ -1435,7 +1435,7 @@ input.em_sq_validation.error, textarea.em_sq_validation.error {
 }
 
 span.dynamic_sum {
-  font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
+  font-family: 'Franklin Bold', Helvetica, "Arial Narrow",
   background-color: #d3d3d3;
 }
 span.dynamic_sum.good {
@@ -1446,7 +1446,7 @@ span.dynamic_sum.error {
 }
 
 span.dynamic_remaining {
-  font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
+  font-family: 'Franklin Bold', Helvetica, "Arial Narrow",
   background-color: #d3d3d3;
 }
 span.dyanamic_remaining.good {
