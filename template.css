@@ -6,11 +6,10 @@ src:
 }
 
 @font-face {
-font-family: 'Franklin';
+font-family: 'Franklin Bold';
 src:
     local('Franklin Gothic Medium'),
-    local('FranklinGothic-Medium'),
-    font-weight: bold;
+    local('FranklinGothic-Medium');
 }
 
 /*** Start jQuery UI Theme Styles ***/
@@ -144,7 +143,7 @@ to-do:
 
 body {
   font-size: 1em;
-  font-family: Franklin, Helvetica, "Arial Narrow";
+  font-family: Franklin, Helvetica, "Arial Narrow",
   background-color: #c0c0c0;
 }
 
@@ -159,7 +158,7 @@ body {
 
 .questiontext {
   font-size: 1em;
-  font-weight: bold;
+  font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
 }
 
 td.survey-question-help {
@@ -349,7 +348,7 @@ table.question tr.array1:hover,table.question tr.array2:hover {
 h2.survey-name {
 	font-size: 1.2em; 
 	color: #E5E5E5; 
-	font-weight: bold;
+	font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
 	margin: 0;
 }
 
@@ -442,7 +441,7 @@ table.group {
 
 .group-name { 
 	font-size: 1.2em; 
-	font-weight: bold; 
+	font-family: 'Franklin Bold', Helvetica, "Arial Narrow"; 
 	color: #000080;
 }
 
@@ -456,7 +455,7 @@ table.group {
 
 .question-text {
 	font-size: 1.2em; 
-	font-weight: bold; 
+	font-family: 'Franklin Bold', Helvetica, "Arial Narrow"; 
 	text-align: center; 
 	background-color: #CCCCCC;
 }
@@ -472,7 +471,7 @@ table.group {
 	background-color:#CCCCCC; 
 	text-align: center; 
 	font-size: 1em; 
-	font-weight: bold;
+	font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
 	border-bottom: 1px solid #111111;
 }
 
@@ -510,7 +509,7 @@ table.clearall-result td {
 
 .warning-text {
 	color:#FF0000;
-	font-weight: bold;
+	font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
 }
 
 .register-table {
@@ -518,7 +517,7 @@ table.clearall-result td {
 }
 
 .register-message-1 {
-	font-weight: bold;
+	font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
 }
 
 .register-message-2 {
@@ -541,7 +540,7 @@ table.clearall-result td {
 .load-heading,
 .save-heading {
 	font-size: 1.2em;
-	font-weight: bold;
+	font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
 }
 
 .load-message {
@@ -579,11 +578,11 @@ table.clearall-result td {
 .survey-list-table .site-name h1 {
 	font-size: 1.5em; 
 	color: #328639; 
-	font-weight: bold;
+	font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
 }
 
 .survey-list-table .survey-list-heading {
-	font-weight: bold;
+	font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
 }
 
 .survey-list-table .survey-list {
@@ -730,12 +729,12 @@ table.clearall-result td {
 
 .numeric-multi p.tip.error,.numeric-multi input.tip.error {
   color: #f70;
-  font-weight: bold;
+  font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
 }
 
 .numeric-multi p.tip.good,.numeric-multi input.tip.good {
   color: #090;
-  font-weight: bold;
+  font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
 }
 
 .numeric-multi ul li span,#limesurvey .multiple-short-txt ul li span {
@@ -1061,7 +1060,7 @@ table.rank td.helptext {
   margin-left: -3px;
   font-size: .8em;
   color: #284a6e;
-  font-weight: bold;
+  font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
   text-align: left;
 }
 
@@ -1166,7 +1165,7 @@ div#wrapper {
 
 .statsSurveyTitle {
   font-size: 1.5em;
-  font-weight: bold;
+  font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
   padding: 24px 0px 0px 0px;
   width: 100%;
   text-align: center;
@@ -1203,7 +1202,7 @@ table.statisticstable img {
 }
 
 table.statisticstable strong {
-  font-weight: bold;
+  font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
 }
 
 div.fieldSummary {
@@ -1215,7 +1214,7 @@ div.fieldSummary {
 div.questionTitle {
   font-size: 1.0em;
   padding: 20px 20px 20px 20px;
-  font-weight: bold;
+  font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
   background-color: #CCCCCC;
   line-height: 1.5em;
 }
@@ -1243,7 +1242,7 @@ td.statsImageholder {
 
 .statsSurveyTitle {
   font-size: 1.5em;
-  font-weight: bold;
+  font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
   padding: 24px 0px 0px 0px;
   width: 100%;
   text-align: center;
@@ -1280,7 +1279,7 @@ table.statisticstable img {
 }
 
 table.statisticstable strong {
-  font-weight: bold;
+  font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
 }
 
 div.fieldSummary {
@@ -1292,7 +1291,7 @@ div.fieldSummary {
 div.questionTitle {
   font-size: 1.0em;
   padding: 20px 20px 20px 20px;
-  font-weight: bold;
+  font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
   background-color: #CCCCCC;
   line-height: 1.5em;
 }
@@ -1325,7 +1324,7 @@ td.statsImageholder {
 #index h2 {
   margin-top: 0;
   text-align: center;
-  font-weight: bold;
+  font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
   color: #FFF;
   background: #042455;
   font-size: 8pt;
@@ -1436,7 +1435,7 @@ input.em_sq_validation.error, textarea.em_sq_validation.error {
 }
 
 span.dynamic_sum {
-  font-weight: bold;
+  font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
   background-color: #d3d3d3;
 }
 span.dynamic_sum.good {
@@ -1447,7 +1446,7 @@ span.dynamic_sum.error {
 }
 
 span.dynamic_remaining {
-  font-weight: bold;
+  font-family: 'Franklin Bold', Helvetica, "Arial Narrow";
   background-color: #d3d3d3;
 }
 span.dyanamic_remaining.good {
