@@ -1,8 +1,17 @@
+/*** Font stuff ***/
+
 @font-face {
 font-family: 'Franklin';
 src:
-    local('Franklin Gothic Book'),
+    local('Franklin Gothic Book');
     local('FranklinGothic-Book');
+}
+
+@font-face {
+font-family: 'Franklin Bold';
+src:
+    local('Franklin Gothic Medium');
+    local('FranklinGothic-Medium');
 }
 
 /*** Start jQuery UI Theme Styles ***/
@@ -136,7 +145,7 @@ to-do:
 
 body {
   font-size: 1em;
-  font-family: Franklin, "DejaVu Sans",Helvetica, "Arial Narrow", Arial;
+  font-family: Franklin, "Helvetica Neue", HelveticaNeue, "Arial Narrow", Arial;
   background-color: #c0c0c0;
 }
 
@@ -336,14 +345,13 @@ table.question tr.array1:hover,table.question tr.array2:hover {
 }
 
 .welcome-header {
-	text-align: center;
-	background-color: #042455;
+	text-align: left;
+	background-color: #035DAB;
 }
 
 h2.survey-name {
-	font-size: 1.2em; 
+	font-size: 1.7em; 
 	color: #E5E5E5; 
-	font-weight: bold;
 	margin: 0;
 }
 
@@ -353,13 +361,14 @@ h2.survey-name {
 }
 
 .welcome-content {
-	font-size: .8em; 
-	text-align: center; 
+	font-size: 1em; 
+	text-align: left; 
 	background-color: #E5E5E5;
 }
 
 td.welcome-content {
-	text-align: center;
+	text-align: left;
+	padding: 2% 8% 2% 8%;
 }
 
 .survey-welcome {
@@ -383,7 +392,7 @@ td.welcome-content {
 
 .navigator-table {
 	width:100%;
-	background-color: #042455;
+	background-color: #035DAB;
 	border-collapse: collapse;
 }
 
