@@ -409,7 +409,7 @@ td.welcome-content {
 .survey-header-table {
 	width: 100%;
 	margin: 0 auto;
-    border: 1px solid #042455;
+    border: 1px solid #035DAB;
 	border-collapse: collapse;
 }	
 
@@ -421,7 +421,7 @@ td.welcome-content {
 
 .survey-description {
 	text-align: center;
-	background-color: #042455;
+	background-color: #035DAB;
 	padding: 25px;
 }
 
