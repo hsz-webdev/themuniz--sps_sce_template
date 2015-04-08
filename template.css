@@ -353,6 +353,7 @@ h2.survey-name {
 	font-size: 1.7em; 
 	color: #E5E5E5; 
 	margin: 0;
+	text-align:left;
 }
 
 .survey-description-text {
@@ -413,7 +414,7 @@ td.welcome-content {
 }	
 
 .survey-header-table td {
-    border: 1px solid #042455;
+    border: 1px solid #035DAB;
 	border-collapse: collapse;
 	margin: 0;
 }
@@ -461,8 +462,8 @@ table.group {
 }
 
 .question-text {
-	font-size: 1em; 
-	font-weight: bold; 
+	font-size: 1.1em; 
+	font-family: "Franklin Bold", HelveticaNeue-Medium, "Arial Narrow Bold"; 
 	text-align: left; 
 	background-color: #CCCCCC;
 }
@@ -496,10 +497,9 @@ table.group {
 }
 
 .completed-text {
-	text-align: center;
-	font-size: .9em;
-	padding-top: 5px;
-	
+	text-align: left;
+	font-size: 1em;
+	padding: 2% 8% 2% 8%;
 }
 
 table.clearall-result {
@@ -982,6 +982,7 @@ table.rank td.helptext {
   text-align: center;
   vertical-align: bottom;
   font-weight: normal;
+  font-family: "Franklin Bold", HelveticaNeue-Medium, "Arial Narrow Bold";
 }
 
 #limesurvey table.question tbody td {
@@ -992,6 +993,7 @@ table.rank td.helptext {
   {
   text-align: left;
   font-weight: normal;
+  padding-bottom: .5em;
 }
 
 #limesurvey table.question tbody th.answertextright {
