@@ -1,6 +1,7 @@
 <table class="survey-header-table">
 	<tr>
 		<td class="survey-description">
+		<img style="float: left; margin: 0px 15px 15px 0px;" src="/upload/templates/sps_sce_template/CUNYcube_orange.png" width="100" />
 			<h2 class="survey-name">{SURVEYNAME}</h2>
 			<span class="survey-description-text">{SURVEYDESCRIPTION}</span>
 		</td>
