@@ -318,11 +318,11 @@ table.question {
 }
 
 .innergraph,.question {
-  font-size: .9em;
+  font-size: 1em;
 }
 
 table.question tr.array1:hover,table.question tr.array2:hover {
-  background-color: #A7A9D1;
+  background-color: #89c7fd;
 }
 
 .outer-frame {
