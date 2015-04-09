@@ -3,6 +3,8 @@
 <table class="welcome-table">
 	<tr>
 		<td class="welcome-header">
+		/* testing logo */
+		<img style="float: left; margin: 0px 15px 15px 0px;" src="CUNYcube_orange.png" width="100" />
 			<h2 class="survey-name">{SURVEYNAME}</h2>
 			<span class="survey-description-text">{SURVEYDESCRIPTION}</span>
 		</td>
